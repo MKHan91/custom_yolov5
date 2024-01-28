@@ -806,7 +806,12 @@ def output_to_target(output, width, height):
                 y = box[1] / height + h / 2
                 conf = pred[4]
                 cls = int(pred[5])
-
+                
+                x.cpu()
+                y.cpu()
+                w.cpu()
+                h.cpu()
+                conf.cpu()
                 targets.append([i, cls, x, y, w, h, conf])
 
     return np.array(targets)
