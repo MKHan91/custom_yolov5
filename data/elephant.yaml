@@ -1,0 +1,10 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: G:\내 드라이브\Outsourcing\AutonomousDriving\yolov5-master\data\train_elephant_custom.txt
+val: G:\내 드라이브\Outsourcing\AutonomousDriving\yolov5-master\data\val_elephant_custom.txt
+test: G:\내 드라이브\Outsourcing\AutonomousDriving\yolov5-master\data\test_elephant_custom.txt
+
+# number of classes
+nc: 1
+
+# class names
+names: ['Elephant']

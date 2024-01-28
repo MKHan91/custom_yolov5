@@ -1,0 +1,7 @@
+*.jpg
+*.png
+output_elephant_img
+.vscode
+__pycache__
+*.txt
+runs
